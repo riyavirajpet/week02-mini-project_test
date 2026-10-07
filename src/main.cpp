@@ -19,7 +19,7 @@ int main()
                 cout << "Enter temperature in Celsius: ";
                 if (cin >> C) { // Check if input is valid
                     F = (C * 9/5) + 32;
-                    cout << "Fahrenheit: " << F << endl;
+                    cout << C << "C" << " converts to " << F << "F" << endl;
                 } else {
                     cout << "Invalid input" << endl;
                     return 0;
@@ -29,7 +29,7 @@ int main()
                 cout << "Enter temperature in Fahrenheit: ";
                 if (cin >> F) { // Check if input is valid
                     C = (F - 32) * 5/9;
-                    cout << "Celsius: " << C << endl;
+                    cout << F << "F" << " converts to " << C << "C" << endl;
                 } else {
                     cout << "Invalid input" << endl;
                     return 0;

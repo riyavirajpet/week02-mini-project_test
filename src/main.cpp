@@ -17,7 +17,7 @@ int main()
         switch (choice) {
             case 1:
                 cout << "Enter temperature in Celsius: ";
-                if (cin >> C) {
+                if (cin >> C) { // Check if input is valid
                     F = (C * 9/5) + 32;
                     cout << "Fahrenheit: " << F << endl;
                 } else {
@@ -27,7 +27,7 @@ int main()
                 break;
             case 2:
                 cout << "Enter temperature in Fahrenheit: ";
-                if (cin >> F) {
+                if (cin >> F) { // Check if input is valid
                     C = (F - 32) * 5/9;
                     cout << "Celsius: " << C << endl;
                 } else {

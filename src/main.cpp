@@ -1,7 +1,6 @@
 /*
- * Names: Riya Virajpet & Chloe McCarrick
- * Date: 10/2/2026
- * Description: Temperature Conversion Program
+* main.cpp
+ * Temperature Conversion Program
  */
 
  #include <iostream>
@@ -18,18 +17,27 @@ int main()
         switch (choice) {
             case 1:
                 cout << "Enter temperature in Celsius: ";
-                cin >> C;
-                F = (C * 9/5) + 32;
-                cout << "Fahrenheit: " << F << endl;
+                if (cin >> C) { // Check if input is valid
+                    F = (C * 9/5) + 32;
+                    cout << C << "C" << " converts to " << F << "F" << endl;
+                } else {
+                    cout << "Invalid input" << endl;
+                    return 0;
+             }
                 break;
             case 2:
                 cout << "Enter temperature in Fahrenheit: ";
-                cin >> F;
-                C = (F - 32) * 5/9;
-                cout << "Celsius: " << C << endl;
+                if (cin >> F) { // Check if input is valid
+                    C = (F - 32) * 5/9;
+                    cout << F << "F" << " converts to " << C << "C" << endl;
+                } else {
+                    cout << "Invalid input" << endl;
+                    return 0;
+                }
                 break;
             default:
                 cout << "Invalid Choice" << endl;
+                return 0;
         }
 
     }

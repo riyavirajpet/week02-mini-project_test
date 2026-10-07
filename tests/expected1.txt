@@ -1,0 +1,2 @@
+0 C converts to 32 F
+

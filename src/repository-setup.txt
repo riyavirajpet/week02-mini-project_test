@@ -1,4 +1,0 @@
-Repository Checklist: 
-- Created Repository
-- Created Branch
-- Shared Respository

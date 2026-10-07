@@ -37,6 +37,7 @@ int main()
                 break;
             default:
                 cout << "Invalid Choice" << endl;
+                return 0;
         }
 
     }

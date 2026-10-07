@@ -1,3 +1,2 @@
--5 F converts to -20 C  
-
-
+1: Celsius to Fahrenheit 2: Fahrenheit to Celsius
+Choice: Enter temperature in Fahrenheit: -5 F converts to -20 C

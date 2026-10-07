@@ -48,6 +48,6 @@ SWITCH choice
 
 END SWITCH
 
-END
+END PROGRAM
 
 
